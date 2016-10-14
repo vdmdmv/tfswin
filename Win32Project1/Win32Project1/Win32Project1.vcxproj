@@ -166,6 +166,11 @@
     <Image Include="small.ico" />
     <Image Include="Win32Project1.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\tfscore\win32lib\win32lib\win32lib.vcxproj">
+      <Project>{07c798c5-6ab1-45c7-b192-bf4da7ce774d}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
