@@ -26,6 +26,8 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 {
 	int k = TestFunc();
 
+	int j = 2 * TestFunc();
+
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
 
